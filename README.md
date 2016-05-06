@@ -56,9 +56,9 @@ console.log(inspect(a, null, true));
 The above has the following output:
 
 ```javascript
-{ b: 22,  c: 'hello',  d: true,  h: { i: 'hello', j: { k: [Object] } } }
-{ b: 22,  c: 'hello',  d: true,  h:    { i: 'hello',     j: { k: { l: 'we must go deeper', m: [Object] } } } }
-{ b: 22,  c: 'hello',  d: true,  [e]: { f: 'nesting', g: null },  h:    { i: 'hello',     j: { k: { l: 'we must go deeper', m: { n: 'we must go deeper' } } } } }
+{ b: 22, c: 'hello', d: true, h: { i: 'hello', j: { k: [Object] } } }
+{ b: 22, c: 'hello', d: true, h: { i: 'hello', j: { k: { l: 'we must go deeper', m: [Object] } } } }
+{ b: 22, c: 'hello', d: true, [e]: { f: 'nesting', g: null }, h: { i: 'hello', j: { k: { l: 'we must go deeper', m: { n: 'we must go deeper' } } } } }
 ```
 
 ## License

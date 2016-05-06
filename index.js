@@ -24,7 +24,7 @@ function inspect_1_line(v) {
             depth = arguments[2];
     }
     var str = inspect(v, {showHidden: showHidden, depth: depth, colors: color});
-    return str.replace(/[\n\r]/g, '');
+    return str.replace(/[\n\r]/g, '').replace(/\s\s+/g, ' ');
 }
 
 global.inspect = inspect_1_line;
