@@ -9,7 +9,7 @@ if (typeof process.env.NODE_ENV === 'string' &&
 
 
 function inspect_1_line(v) {
-    var depth = 5;
+    var depth = 2;
     var showHidden = false;
     if (arguments.length > 0)  {
         if (typeof arguments[1] === 'boolean')
