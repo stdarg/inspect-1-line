@@ -1,6 +1,6 @@
 {
   "name": "inspect-1-line",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Collapse the node.js util.inspect output to 1 line and colorizes iff NODE_ENV is debug and adds inspect to the global object.",
   "main": "index.js",
   "scripts": {
