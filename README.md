@@ -1,8 +1,8 @@
 inspect-1-line
 ===
-This modules makes insert from the Node.js utils easier for me to use by:
+This modules makes inspect from the Node.js utils easier for me to use by:
 
-* adding it to the global object as global.insert, callable as `insert()`
+* adding it to the global object as global.inspect, callable as `inspect()`
 * adding colors automatically if `NODE_ENV` is development (case unimportant)
 * removes `\r`'s and `\n`'s from the string, making the output exist on 1-line (hence the name)
 * optional args for depth or show hiiden that are detected by argument type
