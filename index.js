@@ -27,5 +27,5 @@ function inspect_1_line(v) {
     return str.replace(/[\n\r]/g, '').replace(/\s\s+/g, ' ');
 }
 
-module.exports = global.inspect = inspect_1_line;
+module.exports = inspect_1_line;
 
